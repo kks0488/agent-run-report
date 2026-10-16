@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-run-report"
+version = "0.1.0"
+description = "See what your AI coding agents actually did: private, offline activity reports."
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+]
+
+[project.scripts]
+agent-run-report = "agent_run_report.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_run_report*"]
+
+[tool.setuptools.package-data]
+agent_run_report = ["demo/claude/*.jsonl", "demo/codex/*.jsonl"]

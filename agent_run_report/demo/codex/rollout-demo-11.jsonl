@@ -1,0 +1,50 @@
+{"type":"session_meta","timestamp":"2026-10-10T10:07:00Z","payload":{"id":"codex-demo-11","cwd":"/home/demo/projects/mobile-app","source":"cli"}}
+{"type":"turn_context","timestamp":"2026-10-10T10:07:00Z","payload":{"cwd":"/home/demo/projects/mobile-app","model":"codex-demo-model"}}
+{"type":"response_item","timestamp":"2026-10-10T10:07:00Z","payload":{"type":"message","id":"prompt-0","role":"user","content":[{"type":"input_text","text":"SECRET_PROMPT_TEXT: synthetic task"}]}}
+{"type":"response_item","timestamp":"2026-10-10T10:14:00Z","payload":{"type":"function_call","call_id":"call-0","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:14:35Z","payload":{"type":"function_call_output","call_id":"call-0","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:14:35Z","payload":{"thread_token_usage":{"input_tokens":8446,"cached_input_tokens":8136,"output_tokens":334,"cache_write_input_tokens":0}}}
+{"type":"event_msg","timestamp":"2026-10-10T10:14:35Z","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":8446,"cached_input_tokens":8136,"output_tokens":334,"cache_write_input_tokens":0}}}}
+{"type":"response_item","timestamp":"2026-10-10T10:18:15Z","payload":{"type":"function_call","call_id":"call-1","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:18:39Z","payload":{"type":"function_call_output","call_id":"call-1","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:18:39Z","payload":{"thread_token_usage":{"input_tokens":15761,"cached_input_tokens":14785,"output_tokens":751,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:19:19Z","payload":{"type":"custom_tool_call","call_id":"call-2","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-2.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T10:19:29Z","payload":{"type":"custom_tool_call_output","call_id":"call-2","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:19:29Z","payload":{"thread_token_usage":{"input_tokens":31761,"cached_input_tokens":30453,"output_tokens":1086,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:26:29Z","payload":{"type":"function_call","call_id":"call-3","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:26:34Z","payload":{"type":"function_call_output","call_id":"call-3","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:26:34Z","payload":{"thread_token_usage":{"input_tokens":40773,"cached_input_tokens":38671,"output_tokens":1753,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:26:59Z","payload":{"type":"custom_tool_call","call_id":"call-4","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-4.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T10:27:39Z","payload":{"type":"custom_tool_call_output","call_id":"call-4","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:27:39Z","payload":{"thread_token_usage":{"input_tokens":47088,"cached_input_tokens":44596,"output_tokens":2483,"cache_write_input_tokens":0}}}
+{"type":"event_msg","timestamp":"2026-10-10T10:27:39Z","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":47088,"cached_input_tokens":44596,"output_tokens":2483,"cache_write_input_tokens":0}}}}
+{"type":"response_item","timestamp":"2026-10-10T10:31:19Z","payload":{"type":"function_call","call_id":"call-5","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:31:44Z","payload":{"type":"function_call_output","call_id":"call-5","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:31:44Z","payload":{"thread_token_usage":{"input_tokens":57656,"cached_input_tokens":54873,"output_tokens":2868,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:32:54Z","payload":{"type":"function_call","call_id":"call-6","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:33:10Z","payload":{"type":"function_call_output","call_id":"call-6","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:33:10Z","payload":{"thread_token_usage":{"input_tokens":62679,"cached_input_tokens":59620,"output_tokens":3075,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:48:10Z","payload":{"type":"custom_tool_call","call_id":"call-7","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-2.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T10:48:45Z","payload":{"type":"custom_tool_call_output","call_id":"call-7","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:48:45Z","payload":{"thread_token_usage":{"input_tokens":70757,"cached_input_tokens":67314,"output_tokens":3253,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:55:45Z","payload":{"type":"function_call","call_id":"call-8","name":"exec_command","arguments":"{\"cmd\": \"python3 -m unittest\"}"}}
+{"type":"response_item","timestamp":"2026-10-10T10:55:58Z","payload":{"type":"function_call_output","call_id":"call-8","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:55:58Z","payload":{"thread_token_usage":{"input_tokens":81741,"cached_input_tokens":77359,"output_tokens":3357,"cache_write_input_tokens":0}}}
+{"type":"event_msg","timestamp":"2026-10-10T10:55:58Z","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":81741,"cached_input_tokens":77359,"output_tokens":3357,"cache_write_input_tokens":0}}}}
+{"type":"response_item","timestamp":"2026-10-10T10:56:38Z","payload":{"type":"custom_tool_call","call_id":"call-9","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-4.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T10:57:05Z","payload":{"type":"custom_tool_call_output","call_id":"call-9","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T10:57:05Z","payload":{"thread_token_usage":{"input_tokens":96719,"cached_input_tokens":91421,"output_tokens":3911,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T10:59:35Z","payload":{"type":"custom_tool_call","call_id":"call-10","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-0.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T11:00:00Z","payload":{"type":"custom_tool_call_output","call_id":"call-10","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T11:00:00Z","payload":{"thread_token_usage":{"input_tokens":112144,"cached_input_tokens":106042,"output_tokens":4087,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T11:15:00Z","payload":{"type":"custom_tool_call","call_id":"call-11","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-1.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T11:15:26Z","payload":{"type":"custom_tool_call_output","call_id":"call-11","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T11:15:26Z","payload":{"thread_token_usage":{"input_tokens":123216,"cached_input_tokens":116189,"output_tokens":4727,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T11:30:26Z","payload":{"type":"custom_tool_call","call_id":"call-12","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-2.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T11:31:06Z","payload":{"type":"custom_tool_call_output","call_id":"call-12","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T11:31:06Z","payload":{"thread_token_usage":{"input_tokens":134464,"cached_input_tokens":127026,"output_tokens":5464,"cache_write_input_tokens":0}}}
+{"type":"event_msg","timestamp":"2026-10-10T11:31:06Z","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":134464,"cached_input_tokens":127026,"output_tokens":5464,"cache_write_input_tokens":0}}}}
+{"type":"response_item","timestamp":"2026-10-10T11:32:16Z","payload":{"type":"custom_tool_call","call_id":"call-13","name":"apply_patch","input":"*** Begin Patch\n*** Update File: src/module-3.py\n@@\n-old\n+new\n*** End Patch"}}
+{"type":"response_item","timestamp":"2026-10-10T11:32:23Z","payload":{"type":"custom_tool_call_output","call_id":"call-13","output":{"exit_code":0,"output":"SECRET_PROMPT_TEXT: synthetic output"}}}
+{"type":"token_usage_record","timestamp":"2026-10-10T11:32:23Z","payload":{"thread_token_usage":{"input_tokens":144758,"cached_input_tokens":136817,"output_tokens":5676,"cache_write_input_tokens":0}}}
+{"type":"response_item","timestamp":"2026-10-10T11:35:21Z","payload":{"type":"message","id":"final","role":"assistant","content":[{"type":"output_text","text":"SECRET_PROMPT_TEXT: synthetic summary"}]}}
